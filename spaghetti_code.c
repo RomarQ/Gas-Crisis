@@ -1,7 +1,3 @@
-/**
- * SPAGHETTI CODE ( test 7 )
- */
-
 #include <stdio.h>
 #include <limits.h>
 #include <stdlib.h>
