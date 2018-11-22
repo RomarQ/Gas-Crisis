@@ -4,29 +4,7 @@
   
 Mr Smith is in love and he plans to visit the owner of his heart, Miss Wesson. But he is also avaricious, gas is expensive and the travel has to be as cheap as possible, because, as he says to his friend Mr Beretta, "money is for bread and roses, not for gas ". Thus he has to plan very carefully in which gas stations he has to stop. Your goal is to help him to find the cheapest route.  
 
-## Problem
-
-Because of its avarice, Mr Smith believes that he has to drive very smoothly in order to get the lowest consumption (liters of gas per 100 kilometers). As a matter of fact, during his travels by car, he obtains a constant one, say ![$C$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img2.png) liters of gas per 100 kilometers. Consider that the capacity of Mr Smith's car tank is ![$L$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img3.png) liters.
-
-Miss Wesson lives ![$d$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img4.png) kilometers from Mr Smith and there are ![$n$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img5.png) gas stations along the way. They are numbered from ![$0$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img6.png) to ![$n-1$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img7.png). Suppose, for the sake of simplicity, that n is less or equal to 100. For a gas station, say ![$i$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img8.png), the price of the gas per liter is ![$p_i$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img9.png), and the distance to the next gas station is ![$d_i$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img10.png). Assume that for all ![$i$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img8.png) and ![$j$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img11.png) ( ![$0\leq i,j \leq n-1 $](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img12.png)), ![$i\not = j$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img13.png) implies that ![$d_i \not = d_j$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img14.png) (all the ![$d_i$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img10.png)s are distinct). The distance between the last gas station and Miss Wesson's house is ![$d_{n-1}$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img15.png). Suppose that for all ![$i$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img8.png) such that ![$0\leq i \leq n-1$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img16.png), ![$d_i$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img10.png) is greater than ![$0$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img6.png). We then have ![$d=\sum^{n-1}_{i=0} d_i$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img17.png).
-
-Suppose that Mr Smith's car tank is empty at the beginning of the travel and that it is parked beside the first of these gas stations (the gas station ![$0$](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+img6.png) is the starting point). Assume that all the prices are distinct (there is no two gas stations offering the same price).
-
-In a picture, the situation is the following:
-
-> ----------
-> 
-> ![](http://tiup.ubi.pt/~mooshak/cgi-bin/execute/5857920411908031?image+A+gasolina001.gif)  
-> 
-> Figure 1: The Mr Smith's travel map
-> 
->   
-> 
-> ----------
-
-Your work is to establish in which gas stations he has to stop and how many liters of gas he has to fill up in each of these stations in order to make the cheapest travel. Remember that, in such a situation, Mr Smith car reaches Miss Wesson's house with an empty tank.  
-
-  
+![Screenshot](problem.png)
 
 ## Input
 
